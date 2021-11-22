@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tigers</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fabedba095.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="header">
+      <nav id="navbar">
+        <img src="images/tigers.png" class="logo">
+        <ul id="menu">
+          <li>Home</li>
+          <li>About</li>
+          <li>Types</li>
+          <li>Content</li>
+        </ul>
+      </nav>
+    </div>
+    <p class="text">The Tigers is the largest living
+    cat species and a member of the genus Panthera. It
+    is most recognisable for its dark vertical stripes on
+    orange fur with a white underside. It is an apex predator,
+    primarily preying on ungulates such as deer and wild boar, there are many Types of tigers such as:</p>
+    <p class="text">1. Siberian Tiger
+Common name: Siberian tiger
+Latin name: Panthera tigris altaica
+Also known as: Korean tiger, Amur tiger, Manchurian tiger, Ussurian tiger
+Range: North Asia (Russia, China, Korea)
+Weight: 389 – 475 lbs (males), 260 – 303 lbs (females)
+Size: 70 – 82 inches (males), 66 – 72 inches (females)</p>
+<p class="text" > 2.Bengal Tiger
+Common name: Bengal Tiger
+Latin name: Panthera tigris tigris
+Also known as: Royal Bengal tiger, Indian tiger
+Range: Indian subcontinent (India, Nepal, Bhutan, Bangladesh)
+Weight: 397 – 569 lbs (males), 220 – 350 lbs (females)
+Size: 110 – 120 inches (males), 94 – 104 inches (females)</p>
+<p class="text"> 3.Indochinese Tiger
+Common name: Indochinese tiger
+Latin name: Panthera tigris corbetti
+Also known as: Corbett’s tiger
+Range: Southeast Asia (Thailand, Vietnam, Laos, Burma, China, formerly Cambodia)
+Weight: 331 to 430 lbs (males), 220 – 290 lbs (females)
+Size: 100 – 112 inches (males), 91 – 100 inches (females)</p>
+<p class="text">4.Arabain Leopard in Oman about circa 30 individuals camera trapped by the Arabain Leopard Survey on Jebel Samhan (17 individuals) and Jebels Qara and Qamar (9 – 11 individuals) in Dhofar since 1996; extinct in Hajar Range (last specimen found killed in 1976); presumed extinct in Musandam peninsula (no confirmed reports since last two specimens killed in October 1997) although Biosphere Expeditions reported in November 2007 that it had found definite leopard sign during its expedition to Musandam in January and February of that year Weight:
+Males range from 24 - 34 kg (53 - 76 lbs.)
+Females range from 18 – 23.5 kg (40 - 51 lbs.)
+Overall length:
+Males range from 1820 – 2030 mm (6 ft – 6 ft 8 in)
+Females range from 1600  - 1920 mm (5 ft 3 in – 6 ft 4 in).</p>
+
+
+<script>
+
+
+  var navbar = document.getElementById("navbar");
+  var menu = document.getElementById("menu");
+
+  window.onscroll = function() {
+    if(window.pageYOffset >= menu.offsetTop){
+      navbar.classList.add("sticky");
+    }
+    else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
+
+<footer>
+  <div class="container">
+    <div class="menu">
+      <div>
+      <i class="fas fa-home"></i>
+      <span><i class="fas fa-home"></i></span>
+      </div>
+      <div>
+      <i class="fas fa-comments"></i>
+      <span><i class="fas fa-comments"></i></span>
+      </div>
+      <div>
+      <i class="fas fa-podcast"></i>
+      <span><i class="fas fa-podcast"></i></span>
+      </div>
+      <div>
+      <i class="fas fa-heart"></i>
+      <span><i class="fas fa-heart"></i></span>
+      </div>
+      <div>
+      <i class="fas fa-user-circle"></i>
+      <span><i class="fas fa-user-circle"></i></span>
+      </div>
+    </div>
+
+
+
+  </div>
+</footer>
+
+  </body>
+</html>
